@@ -6,6 +6,7 @@
     <title>Cadastro</title>
 </head>
 <body>
+    <nav><a href="./home.html">Início</a></nav>
     <div class="cadastro">
         <h2>Cadastrar</h2>
         <input type="text" placeholder="Digite seu nome">
@@ -16,32 +17,61 @@
         <a href="./login.html">Já possui cadastro?</a>
     </div>
     <style>
-        body {
-    background-color: royalblue;
+body {
+    background-color: #6146F1 ;
+}
+nav{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 .cadastro {
     text-align: center;
     display: grid;
-    height: 500px;
+    height: 300px;
     width: 400px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: #6146F1;
     border-radius: 40px;
+    font-family: arial;
+    color: white;
+    font-size: larger;
 }
  
 input{
-    margin: 20px;
-    border-radius: 10px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: large;
+    border: 2px solid rgb(167, 147, 255);
+}
+input::placeholder{
+    color: grey;
+    font-family: monospace;
+    font-size: x-large;
+    text-align: center;
 }
 button {
-    margin: 20px;
-    border-radius: 10px;
-    
+    height: 60px;
+    margin: 5px;
+    border-radius: 50px;
+    background-color: #4324f1;
+    cursor: pointer;
+    color: white;
+    font-size: larger;
+    border: 2px solid rgb(167, 147, 255);
 }
 
+a{
+    color: white;
+    font-size: large;
+    
+}
     </style>
 </body>
 </html>
